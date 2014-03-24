@@ -36,7 +36,9 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
+
+activate :directory_indexes
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -69,6 +71,7 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+# set up deploy plugin
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.build_before = true # default: false

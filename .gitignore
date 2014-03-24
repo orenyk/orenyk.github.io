@@ -18,3 +18,6 @@
 
 # ST2 files
 *.sublime-workspace
+
+# ignore cache folder
+.cache/
