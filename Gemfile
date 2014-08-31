@@ -20,3 +20,6 @@ gem 'neat'
 
 # middleman-deploy for gh-pages
 gem 'middleman-deploy', '~> 0.3.0'
+
+# jquery
+gem "jquery-middleman"
