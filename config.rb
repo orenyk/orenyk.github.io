@@ -69,6 +69,9 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  # activate directory indexes
+  activate :directory_indexes
 end
 
 activate :deploy do |deploy|
