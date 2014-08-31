@@ -1,13 +1,14 @@
 // Typography
 ///////////////////////////////////////////////////////////////////////////////
-$pt-serif: "PT Serif", Georgia, Cambria, "Times New Roman", Times, serif;
-$pt-sans: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$source-serif: "Source Serif Pro", Georgia, Cambria, "Times New Roman", Times, serif;
+$source-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$source-code: "Source Code Pro", Menlo, Consolas, monospace;
 
-$sans-serif: $pt-sans;//$helvetica;
-$serif: $pt-serif;//$georgia;
+$sans-serif: $source-sans;
+$serif: $source-serif;
 
-$base-font-family: $sans-serif;
-$header-font-family: $serif;//$base-font-family;
+$base-font-family: $serif;
+$header-font-family: $sans-serif;//$base-font-family;
 
 // Sizes
 ///////////////////////////////////////////////////////////////////////////////
