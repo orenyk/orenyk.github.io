@@ -17,3 +17,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+
+# middleman-deploy for gh-pages
+gem 'middleman-deploy', '~> 0.3.0'
