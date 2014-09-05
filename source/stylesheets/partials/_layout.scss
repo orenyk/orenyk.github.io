@@ -1,3 +1,11 @@
 #main {
     @include outer-container;
 }
+
+#sidebar {
+  @include span-columns(4);
+}
+
+#content {
+  @include span-columns(8);
+}
