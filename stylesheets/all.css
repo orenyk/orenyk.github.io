@@ -263,6 +263,26 @@ input[type="submit"] {
     display: table;
     clear: both; }
 
+/* line 5, /home/oren/code/orenyk.github.io/source/stylesheets/partials/_layout.scss */
+#sidebar {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  /* line 38, /home/oren/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/neat-1.6.0/app/assets/stylesheets/grid/_span-columns.scss */
+  #sidebar:last-child {
+    margin-right: 0; }
+
+/* line 9, /home/oren/code/orenyk.github.io/source/stylesheets/partials/_layout.scss */
+#content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  /* line 38, /home/oren/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/neat-1.6.0/app/assets/stylesheets/grid/_span-columns.scss */
+  #content:last-child {
+    margin-right: 0; }
+
 /* line 1, /home/oren/code/orenyk.github.io/source/stylesheets/partials/_header.scss */
 .centered-navigation {
   background-color: #E7F1EC;
