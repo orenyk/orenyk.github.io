@@ -3,6 +3,7 @@
 source 'http://rubygems.org'
 
 gem "middleman", "~>3.3.5"
+gem 'slim', '~> 2.0.3'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
@@ -14,9 +15,9 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Bitters / Bourbon / Neat
-gem 'bitters'
-gem 'bourbon'
-gem 'neat'
+gem 'bitters', '~> 0.10.0'
+gem 'bourbon', '~> 4.0.2'
+gem 'neat', '~> 1.6.0'
 
 # middleman-deploy for gh-pages
 gem 'middleman-deploy', '~> 0.3.0'
