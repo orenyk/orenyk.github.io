@@ -1,3 +1,5 @@
+require 'slim'
+
 ###
 # Compass
 ###
@@ -75,9 +77,13 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+# deployment settings
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.build_before = true # default: false
   deploy.branch = "master"
   deploy.strategy = :submodule
 end
+
+# Slim settings
+set :slim, :pretty => true

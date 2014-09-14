@@ -6,6 +6,6 @@ html
     == stylesheet_link_tag "normalize", "all"
     == javascript_include_tag  "all"
 
-  body class="=page_classes"
+  body class="#{page_classes}"
     #main
       == yield
